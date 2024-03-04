@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- Preconnect links for Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Page title -->
+    <title>Frontend Mentor | Recipe page</title>
+  </head>
+  <body>
+    <main class="flex justify-center items-center lg:bg-eggshell lg:p-16">
+      <!-- Content goes here -->
+      <div class="recipe-card lg:bg-white lg:w-1/2 lg:rounded-2xl">
+        <div class="recipe-img lg:p-8 ">
+          <img src="./assets//images/image-omelette.jpeg" class="lg:rounded-xl" alt="omelette" />
+        </div>
+        <div class="recipe-details px-8 py-12 lg:py-4 space-y-5">
+          <h1 class="title text-4xl font-young-serif text-dark-charcoal">
+            Simple Omelette Recipe
+          </h1>
+          <p class="subtext font-outfit font-normal text-wenge-brown">
+            An easy and quick dish, perfect for any meal. This classic omelette
+            combines beaten eggs cooked to perfection, optionally filled with
+            your choice of cheese, vegetables, or meats.
+          </p>
+          <div class="preparation-time bg-rose-white rounded-lg p-5">
+            <h3 class="text-2xl font-outfit font-bold text-dark-raspberry">
+              Preparation time
+            </h3>
+            <ul
+              class="list-disc list-inside text-dark-raspberry space-y-3 mt-3"
+            >
+              <li>
+                <span class="text-base font-outfit text-wenge-brown font-bold"
+                  >Total:</span
+                ><span class="text-base font-outfit text-wenge-brown">
+                  Approximately 10 minutes</span
+                >
+              </li>
+              <li>
+                <span class="text-base font-outfit text-wenge-brown font-bold"
+                  >Preparation:</span
+                ><span class="text-base font-outfit text-wenge-brown">
+                  5 minutes</span
+                >
+              </li>
+              <li>
+                <span class="text-base font-outfit text-wenge-brown font-bold"
+                  >Cooking:</span
+                ><span class="text-base font-outfit text-wenge-brown">
+                  5 minutes</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="ingredients">
+            <h2 class="text-3xl font-young-serif text-nutmeg">Ingredients</h2>
+            <ul class="list-disc list-outside pl-5 text-nutmeg space-y-3 mt-3">
+              <li>
+                <span class="font-outfit text-base text-wenge-brown"
+                  >2-3 large eggs</span
+                >
+              </li>
+              <li>
+                <span class="font-outfit text-base text-wenge-brown"
+                  >Salt, to taste</span
+                >
+              </li>
+              <li>
+                <span class="font-outfit text-base text-wenge-brown"
+                  >Pepper, to taste</span
+                >
+              </li>
+              <li>
+                <span class="font-outfit text-base text-wenge-brown"
+                  >1 tablespoon of butter or oil</span
+                >
+              </li>
+              <li>
+                <span class="font-outfit text-base text-wenge-brown"
+                  >Optional fillings: cheese, diced vegetables, cooked meats,
+                  herbs</span
+                >
+              </li>
+            </ul>
+            <hr class="mt-5 bg-light-grey" />
+          </div>
+          <div class="instructions">
+            <h2 class="text-3xl font-young-serif text-nutmeg">Instructions</h2>
+            <ol
+              class="list-decimal list-outside pl-5 text-nutmeg font-semibold space-y-3 mt-3"
+            >
+              <li>
+                <span class="text-base font-outfit text-wenge-brown font-bold"
+                  >Beat the eggs:</span
+                >
+                <span
+                  class="text-base font-outfit text-wenge-brown font-normal"
+                >
+                  In a bowl, beat the eggs with a pinch of salt and pepper until
+                  they are well mixed. You can add a tablespoon of water or milk
+                  for a fluffier texture.</span
+                >
+              </li>
+              <li>
+                <span class="text-base font-outfit text-wenge-brown font-bold"
+                  >Heat the pan:</span
+                >
+                <span
+                  class="text-base font-outfit text-wenge-brown font-normal"
+                >
+                  Place a non-stick frying pan over medium heat and add butter
+                  or oil.</span
+                >
+              </li>
+              <li>
+                <span class="text-base font-outfit text-wenge-brown font-bold"
+                  >Cook the omelette:</span
+                >
+                <span
+                  class="text-base font-outfit text-wenge-brown font-normal"
+                >
+                  Once the butter is melted and bubbling, pour in the eggs. Tilt
+                  the pan to ensure the eggs evenly coat the surface.</span
+                >
+              </li>
+              <li>
+                <span class="text-base font-outfit text-wenge-brown font-bold"
+                  >Add fillings (optional):</span
+                >
+                <span
+                  class="text-base font-outfit text-wenge-brown font-normal"
+                >
+                  When the eggs begin to set at the edges but are still slightly
+                  runny in the middle, sprinkle your chosen fillings over one
+                  half of the omelette.</span
+                >
+              </li>
+              <li>
+                <span class="text-base font-outfit text-wenge-brown font-bold"
+                  >Fold and serve:</span
+                >
+                <span
+                  class="text-base font-outfit text-wenge-brown font-normal"
+                >
+                  As the omelette continues to cook, carefully lift one edge and
+                  fold it over the fillings. Let it cook for another minute,
+                  then slide it onto a plate.</span
+                >
+              </li>
+              <li>
+                <span class="text-base font-outfit text-wenge-brown font-bold"
+                  >Enjoy:</span
+                >
+                <span
+                  class="text-base font-outfit text-wenge-brown font-normal"
+                >
+                  Serve hot, with additional salt and pepper if needed.</span
+                >
+              </li>
+            </ol>
+            <hr class="mt-5 bg-light-grey" />
+          </div>
+          <div class="nutrition">
+            <h2 class="text-3xl font-young-serif text-nutmeg leading-loose">
+              Nutrition
+            </h2>
+            <p class="subtext font-outfit font-normal text-wenge-brown">
+              The table below shows nutritional values per serving without the
+              additional fillings.
+            </p>
+
+            <dl class="mt-5">
+              <div class="grid grid-cols-2 border-b border-light-grey  py-4">
+                <dt class="pl-10 font-outfit text-wenge-brown">Calories</dt>
+                <dd class="text-nutmeg font-bold font-outfit" >277kcal</dd>
+              </div>
+              <div class="grid grid-cols-2 border-b border-light-grey  py-4">
+                <dt class="pl-10 font-outfit text-wenge-brown">Carbs</dt>
+                <dd class="text-nutmeg font-bold font-outfit" >0g</dd>
+              </div>
+              <div class="grid grid-cols-2 border-b border-light-grey  py-4">
+                <dt class="pl-10 font-outfit text-wenge-brown">Protein</dt>
+                <dd class="text-nutmeg font-bold font-outfit" >20g</dd>
+              </div>
+              <div class="grid grid-cols-2  py-4">
+                <dt class="pl-10 font-outfit text-wenge-brown">Fat</dt>
+                <dd class="text-nutmeg font-bold font-outfit" >22g</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer attribution -->
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.linkedin.com/in/im-vashukashyap/">Vashu Kashyap</a>.
+    </footer>
+  </body>
+</html>
