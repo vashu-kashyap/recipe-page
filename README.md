@@ -20,7 +20,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [GitHub solution](https://github.com/vashu-kashyap/recipe-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Recipe page live url](https://recipe-page-woad-three.vercel.app/)
 
 ## My process
 
